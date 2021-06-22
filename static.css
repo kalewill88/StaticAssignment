@@ -1,0 +1,153 @@
+body {
+    background: url(./images/gradient-violet-bg.jpg) center bottom;
+    height: 115vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Roboto, sans-serif;
+}
+
+.navbar-expand-lg{
+    color: white;
+}
+
+.nav-item {
+    color: white;
+}
+.navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.kastLogo {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: block;
+    position: relative;
+    width: 201px;
+    height: auto;
+    z-index: 1;
+    transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+.openKastButtonNoColor {
+    width: 215px;
+    padding: 0px 18px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.boatimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.wp-title {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 500;
+    font-family: roboto, sans-serif;
+    color: white;
+}
+.wp-content {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    float: none;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.openKastButton {
+    width: 175px;
+    padding: 0px 18px;
+    border: 1px solid orange;
+    border-radius: 3px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    display: block;
+    color: white;
+}
+.grid {
+    display: grid;
+    margin-right: auto;
+    margin-bottom: 75px;
+    margin-left: auto;
+    align-items: center;
+    grid-row-gap: 80px;
+    grid-column-gap: 140px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.kastQuote {
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.couponCode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.tealBackground {
+    background: url(./images/green-bg.jpg) center bottom;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.whatIsKast {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    float: none;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+a:link, a:active, a:hover, a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
